@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
 
-    <div className="mainDiv bg-slate-600 overflow-x-hidden">
+    <div className="mainDiv bg-slate-600 min-h-[100vh] overflow-x-hidden">
 
-
+{/* {Hello Test test} */}
 
     <Offer/>
     <Navbar/>
@@ -18,6 +18,9 @@ export default function Home() {
     
 
     <div className="productCards w-screen grid grid-cols-5 max-md:grid-cols-3 max-sm:grid-cols-2">
+      <ProductCard/>
+      <ProductCard/>
+      <ProductCard/>
       <ProductCard/>
       <ProductCard/>
       <ProductCard/>

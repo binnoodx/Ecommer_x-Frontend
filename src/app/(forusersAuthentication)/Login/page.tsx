@@ -12,9 +12,9 @@ const page = () => {
     }
 
   return (
-    <div>
+    <div className='h-screen w-screen flex flex-row '>
 
-        <button onClick={getData}>click Me</button>
+        
       
     </div>
   )
